@@ -56,6 +56,6 @@ function bottomAnimation(currentkey) {
   activeButton.classList.add("pressed");
   setTimeout(function() {
     activeButton.classList.remove("pressed")
-  }, 300);
+  }, 100);
 
 }
